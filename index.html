@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <title>HEYBOOM PHOTOBOOK</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav id="navigBar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i id="checkBtn" class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><a class="change" href="index.html">HEYBOOM</a></label>
+            <ul id="nav-ul">
+                <li><a class="change" href="#header">Home</a></li>
+                <li><a class="change" href="#order">Order</a></li>
+                <li><a class="change" href="#product">Product</a></li>
+                <li><a class="change" href="#about">About Us</a></li>
+                <li><a class="change" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="video">
+            <video autoplay loop muted>
+                <source src="assets/video/Video.mp4">
+            </video>
+        </div>
+        <div class="overlay"></div>
+        <div class="content">
+            <img src="assets/img/logo 2.png" alt="Heyboom Logo">
+            <h1>HEYBOOM PHOTOBOOK</h1>
+            <h3>Abadikan Setiap Momenmu</h3>
+        </div>
+    </header>
+
+    <main>
+        <div id="content">
+            <article id="order">
+                <img src="assets/img/order-pict.png" alt="">
+                <div class="content">
+                    <h3>Get Yours Now !</h3>
+                    <button type="submit">Order</button>
+                </div>
+            </article>
+
+            <article id="product">
+                <h2>Product</h2>
+                <div class="content-container">
+                    <div class="card-container1">
+                        <div class="card">
+                            <img src="assets/img/Baby.png" alt="">
+                            <p>Baby</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/img/Birthday.png" alt="">
+                            <p>Birthday</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/img/Family.png" alt="">
+                            <p>Family</p>
+                        </div>
+                    </div>
+                    <div class="card-container2">
+                        <div class="card">
+                            <img src="assets/img/Graduation.png" alt="">
+                            <p>Graduation</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/img/Travel.png" alt="">
+                            <p>Travelling</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/img/Wedding.png" alt="">
+                            <p>Wedding</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="about">
+                <div class="left">
+                    <h1>About Us</h1>
+                </div>
+                <div class="right">
+                    <p>HEYBOOM is a photobook brand that focus on catchy and high quality photobook.
+                        With so many choices of theme from our photobook, you can capture your every moment in your life
+                        beautifully.
+                    </p>
+                </div>
+            </article>
+
+            <article id="contact">
+                <div class="left">
+                    <form action="">
+                        <input class="box" type="text" placeholder="Name" spellcheck="false" required>
+                        <input class="box" type="email" placeholder="Email" spellcheck="false" required>
+                        <input class="box" type="text" placeholder="Subject" spellcheck="false" required>
+                        <textarea name="" id="" cols="50" rows="10" placeholder="Message" spellcheck="false"
+                            required></textarea>
+                        <input class="check" type="checkbox" name="" id=""> <label for="">Subscribe Our
+                            Newsletter</label>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="right">
+                    <h1>Contact Us</h1>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="Heyboom Logo">
+            </div>
+            <div class="info">
+                <p><i class="far fa-envelope"></i>heyboomid@gmail.com<br>
+                    <i class="fab fa-instagram"></i>heyboom.photoboook<br>
+                    <i class="fab fa-whatsapp"></i>085770472997</p>
+            </div>
+        </div>
+        <p id="copyright">Heyboom &copy; 2020. All rights reserved.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/9fb210ee5d.js" crossorigin="anonymous"></script>
+    <script src="js/style.js"></script>
+</body>
+
+</html>
