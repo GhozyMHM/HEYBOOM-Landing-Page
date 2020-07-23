@@ -9,6 +9,7 @@ Features :
 
 - Responsive Website
 - Navigation Bar and Its Element Color Change on Scrolling
+- Active Menu Change on Scrolling
 - Video Banner
 - Product Card
 
