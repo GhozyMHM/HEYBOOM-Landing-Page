@@ -15,10 +15,10 @@ Features :
 
 Menu / Layout :
 
-Navigation Bar
-Home
-Order
-Product
-About Us
-Contact Us
-Footer
+- Navigation Bar
+- Home
+- Order
+- Product
+- About Us
+- Contact Us
+- Footer
