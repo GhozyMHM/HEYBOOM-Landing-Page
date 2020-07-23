@@ -25,7 +25,6 @@ window.onscroll = function () {
     }
 }
 
-
 //Change Menu Active When Scrolling
 jQuery(document).ready(function (jQuery) {
     var topMenu = jQuery("#nav-ul"),

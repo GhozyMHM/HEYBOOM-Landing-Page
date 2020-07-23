@@ -65,7 +65,7 @@ a:hover {
 }
 
 #nav-ul li.active a {
-    background-color: #282f8f;
+    background-color: #282f8f !important;
     color: #c6edf8 !important;
 }
 
