@@ -1,7 +1,7 @@
 # HEYBOOM-Landing-Page
 Beautiful landing page for photobook brand, Heyboom.
 
-Classy landing page for clothing brand, HOLYDAMN
+Responsive and Beautiful landing page for photobook brand, HEYBOOM.
 
 Live Demo : https://ghozymhm.github.io/HEYBOOM-Landing-Page/
 
